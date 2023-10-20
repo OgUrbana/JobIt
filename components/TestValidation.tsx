@@ -13,8 +13,6 @@ const TestValidation = () => {
   const {
     register,
     handleSubmit,
-    // eslint-disable-next-line no-unused-vars
-    watch,
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
