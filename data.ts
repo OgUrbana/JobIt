@@ -9,7 +9,6 @@ export const smallJobCardData = {
   technologies: ["PHP", "Laravel", "CSS", "React"],
   logo: "/img/company-logo/ui-hut.svg",
   link: "/",
-  isRemote: true,
 };
 
 export const inlineJobCardData = {
